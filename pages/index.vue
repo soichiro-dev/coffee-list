@@ -1,11 +1,3 @@
 <template>
-  <p>Hello World!!</p>
+  <Test page-title="test" />
 </template>
-
-<script lang="ts">
-import { defineComponent } from '@nuxtjs/composition-api'
-
-export default defineComponent({
-  setup() {},
-})
-</script>

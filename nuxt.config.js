@@ -46,7 +46,11 @@ export default {
   axios: {},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    babel: {
+      presets: ['@nuxt/babel-preset-app', 'vca-jsx'],
+    },
+  },
 
   // https://composition-api.nuxtjs.org/getting-started/setup
   // todo SSGにする場合は有効化する
